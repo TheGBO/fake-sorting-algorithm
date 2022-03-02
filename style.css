@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #383838;
+    overflow: hidden;
+}
+
+#game{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.pad-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #1a1a1a;
+    border: none;
+}
